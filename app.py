@@ -1,4 +1,9 @@
-import math
-x= math.ceil(2.9)
-y= math.floor(2.9)
-print((x,y))
+weather = input('What is the weather of today\t')
+if weather=='hot':
+    print("It's a hot day")
+    print('drint plenty of water.')
+elif weather=='cold':
+    print("It's a cold day")
+    print('Wear warm clothes')
+else:
+    print('Enjoy your day.')
