@@ -1,2 +1,4 @@
-x=10 +3*2**2
-print(x)
+import math
+x= math.ceil(2.9)
+y= math.floor(2.9)
+print((x,y))
