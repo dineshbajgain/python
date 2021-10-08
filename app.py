@@ -1,6 +1,11 @@
-first_name = 'Dinesh'
-last_name='Bajgain'
-message = first_name+' ['+last_name+ ' ] is a coder'
-# formatted string
-msg=f'{first_name} [{last_name}] is a coder'
-print(msg)
+course = 'Python for Beginners'
+course_upper = course.upper()
+# print(course.replace('P','J'))
+print('Python' in course)
+course.upper()
+course.lower()
+course.title()
+course.find()
+course.find()
+course.replace()
+'...' in course
