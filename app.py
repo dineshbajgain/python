@@ -1,9 +1,7 @@
-weather = input('What is the weather of today\t')
-if weather=='hot':
-    print("It's a hot day")
-    print('drint plenty of water.')
-elif weather=='cold':
-    print("It's a cold day")
-    print('Wear warm clothes')
+price =100000
+has_good_credit = False
+if has_good_credit:
+    price-=price*10/100
 else:
-    print('Enjoy your day.')
+    price-=price*20/100
+print(f"Down payment : {price}")
