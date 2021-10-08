@@ -1,5 +1,3 @@
-course ='''
-Hi john here is an email to you 
-how are you 
-djh'''
-print(course[:])
+# string assignment
+name = 'Jennifer'
+print(name[1:-1])
