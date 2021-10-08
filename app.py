@@ -1,7 +1,11 @@
-price =100000
-has_good_credit = False
-if has_good_credit:
-    price-=price*10/100
+secrect_number = int(input('Input Secret Number \t'))
+guess_count = 0
+guess_limit = 3
+while guess_count < guess_limit:
+    guess =int(input('Guess: '))
+    guess_count +=1
+    if guess == secrect_number:
+        print('You won !')
+        break
 else:
-    price-=price*20/100
-print(f"Down payment : {price}")
+    print('Sorry you Failed!!')
